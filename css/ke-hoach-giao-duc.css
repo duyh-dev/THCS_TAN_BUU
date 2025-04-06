@@ -1,0 +1,37 @@
+.exam-container {
+  max-width: 800px;
+  margin: 30px auto;
+  font-family: Arial, sans-serif;
+}
+
+.exam-title {
+  background-color: #186bcc;
+  color: white;
+  padding: 10px 15px;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.exam-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.exam-item img {
+  width: 200px;
+  height: auto;
+  margin-right: 15px;
+}
+
+.exam-item a {
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.exam-item a:hover {
+  color: #186bcc;
+  text-decoration: underline;
+}

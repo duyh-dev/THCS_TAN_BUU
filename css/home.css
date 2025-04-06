@@ -1,0 +1,133 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.slideshow-container {
+  position: relative;
+  max-width: 800px;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+  width: 100%; 
+  position: relative;
+  text-align: center;
+}
+
+.mySlides img {
+  width: 100%; 
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* Nút điều hướng */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  background-color: rgba(0,0,0,0.5);
+  transform: translateY(-50%);
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Dots */
+.dot {
+  cursor: pointer;
+  height: 12px;
+  width: 12px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.caption-slide {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6); /* nền mờ */
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.mySlides {
+  position: relative; /* để caption đặt được đúng */
+}
+
+.banner-nghi-quyet img {
+  width: 100%;
+  height: auto;
+}
+.thong-bao-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.thong-bao-box,
+.van-ban-box {
+  background: #f0f8ff;
+  padding: 15px;
+  border-radius: 8px;
+  width: 45%;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.thong-bao-box h3,
+.van-ban-box h3 {
+  background: #186bcc;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.thong-bao-box ul,
+.van-ban-box ul {
+  list-style: none;
+  padding: 0;
+}
+
+.thong-bao-box li,
+.van-ban-box li {
+  padding: 5px;
+  border-bottom: 1px solid #ddd;
+}

@@ -1,0 +1,163 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #186bcc;
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  padding: 13px 20px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #0f4f99;
+}
+
+.navbar .time {
+  color: #fff;
+  font-size: 14px;
+  margin-left: auto;
+  padding: 13px 20px;
+  float: right;
+  font-weight: bold;
+}
+
+.login-btn {
+  float: left;
+  background-color: #186bcc;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background-color: #0f4f99;
+}
+
+.submenu {
+  background-color: #f4f4f4;
+  text-align: right;
+}
+
+.submenu a {
+  padding: 14px 20px;
+  text-decoration: none;
+  color: #333;
+  display: inline-block;
+}
+
+.submenu a:hover {
+  background-color: #ddd;
+}
+
+.search-box {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.search-box input {
+  padding: 10px;
+  width: 200px;
+}
+
+.search-box button {
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.banner {
+  text-align: center;
+  background-color: #eee;
+  padding: 50px 0;
+}
+
+.banner-img {
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+  object-fit: cover;
+}
+
+.marquee-container {
+  display: flex;
+  align-items: center;
+  background-color:white;
+  color: #186bcc;
+  font-size: 18px;
+  padding: 20px;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  font-weight: bold;
+}
+
+
+.marquee-mask {
+  flex: 1;
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+}
+
+.marquee {
+  position: absolute;
+  white-space: nowrap;
+  animation: marquee-scroll 10s linear infinite;
+}
+
+/* Keyframes chạy ngang từ phải sang trái */
+@keyframes marquee-scroll {
+  0% {
+    transform: translateX(250%);
+  }
+  100% {
+    transform: translateX(-120%);
+  }
+}
+
+.iframe-container {
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+/* phút tơ */
+.footer {
+  background-color: #186bcc;
+  color: white;
+  padding: 20px 0;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.footer-navbar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.footer-navbar a {
+  color: white;
+  padding: 0 15px;
+  text-decoration: none;
+}
+
+.footer-navbar a:hover {
+  background-color: #0f4f99;
+}
+
+.footer-info p {
+  margin: 5px 0;
+}
+
+.footer-info img {
+  vertical-align: middle;
+}

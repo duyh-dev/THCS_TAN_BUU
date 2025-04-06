@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trang Web Trường THCS Tân Bửu</title>
+    <link rel="stylesheet" href="css/styles_main.css" />
+  </head>
+  <header></header>
+  <body>
+    <div class="submenu">
+      <a href="#">THƯ VIỆN</a>
+      <a href="#">SMAS</a>
+      <a href="#">TRA CỨU ĐIỂM</a>
+      <a href="#">RSS</a>
+      <button class="login-btn">🔐 Đăng nhập</button>
+    </div>
+
+    <div class="search-box">
+      <input
+        type="text"
+        placeholder="Tìm kiếm....                               🎙️"
+      />
+      <button>🍳Tìm kiếm</button>
+    </div>
+
+    <div class="marquee-container">
+      <div class="marquee">
+        <p>
+          Chào mừng bạn đến với cổng thông tin điện tử của Trường THCS Tân Bửu
+        </p>
+      </div>
+    </div>
+
+    <div class="navbar">
+      <a href="javascript:void(0);" onclick="loadPage('home')">🏠</a>
+      <a href="javascript:void(0);" onclick="loadPage('gioi-thieu')"
+        >Giới thiệu</a
+      >
+      <a href="javascript:void(0);" onclick="loadPage('co-cau-to-chuc')"
+        >Cơ cấu tổ chức</a
+      >
+      <a href="javascript:void(0);" onclick="loadPage('ke-hoach-giao-duc')"
+        >Kế hoạch giáo dục</a
+      >
+      <a href="javascript:void(0);" onclick="loadPage('van-ban-cong-van')"
+        >Văn bản - Công văn</a
+      >
+      <a href="javascript:void(0);" onclick="loadPage('tin-tuc')"
+        >Tin tức sự kiện</a
+      >
+      <a href="javascript:void(0);" onclick="loadPage('lien-he')">Liên hệ</a>
+
+      <div class="time" id="current-time"></div>
+    </div>
+
+    <div class="banner">
+      <img src="img/image.png" alt="Banner Trường" class="banner-img" />
+    </div>
+
+    <div class="iframe-container">
+      <iframe
+        id="content-frame"
+        src="home.html"
+        frameborder="0"
+        style="width: 100%; height: 2000px"
+      ></iframe>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-navbar">
+        <a href="javascript:void(0);" onclick="loadPage('home')">Trang chủ</a>
+        <a href="javascript:void(0);" onclick="loadPage('gioi-thieu')"
+          >Giới thiệu</a
+        >
+        <a href="javascript:void(0);" onclick="loadPage('co-cau-to-chuc')"
+          >Cơ cấu tổ chức</a
+        >
+        <a href="javascript:void(0);" onclick="loadPage('ke-hoach-giao-duc')"
+          >Kế hoạch giáo dục</a
+        >
+        <a href="javascript:void(0);" onclick="loadPage('van-ban-cong-van')"
+          >Văn bản - Công văn</a
+        >
+        <a href="javascript:void(0);" onclick="loadPage('lien-he')">Liên hệ</a>
+      </div>
+      <div class="footer-info">
+        <p>Trường THCS Tân Bửu</p>
+        <p>Địa chỉ: 1029-917 Huỳnh Văn Nghệ, Bửu Long, Biên Hòa, Đồng Nai</p>
+        <p>Điện thoại: ...</p>
+        <p>Email: dni-bienhoa-thcstanbuu@edu.viettel.vn</p>
+        <p>
+          Hợp tác phát triển bởi
+          <a href="https://edu.viettel.vn/" target="_blank">
+            <img
+              src="http://thcstanbuubienhoa.edu.vn/upload/18027/fck/powerby.png"
+              alt="Viettel Study"
+            />
+          </a>
+          & TB01598
+        </p>
+        <p>
+          Trang web được tham khảo từ
+          <a href="http://thcstanbuubienhoa.edu.vn/" target="_blank">
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAOVBMVEVHcEwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADLcPMfAAAAE3RSTlMADFJ2b2IV2rmxzfmjiAOVQTIkC5lTogAAAL9JREFUeAHVjQcSBCEIBAcjmPX/j71j3fSF7UpttQA+BxmrGNoPpw8fsPGR5U/KhajmpM7RXrE2EBGoS5dwKOwTaUgpBpDUMMpfW33F6b2fDa4DquMdr+u2Y0PvSRNjtO2IThV3dD0EY8zak0v1WUuEpux4GD0xYPTazV47qupz0zZdO19r8URxY86AHUFrei93TNIrs1hyvTlh7qUkd8W+KKxpOnPiYuYKFJ61bJ1iJWe29lC+4uq8EWVrmfgaPwu2CUyoTs3TAAAAAElFTkSuQmCC"
+              alt=" LINK TRƯỜNG THCS TÂN BỬU"
+            />
+          </a>
+        </p>
+      </div>
+    </footer>
+
+    <script src="js/scripts_main.js"></script>
+  </body>
+</html>

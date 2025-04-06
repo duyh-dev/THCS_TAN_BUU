@@ -1,0 +1,72 @@
+.intro-container {
+  max-width: 850px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  line-height: 1.7;
+}
+
+.intro-container .breadcrumb {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.intro-container h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.intro-container h3 {
+  margin-top: 25px;
+  font-size: 18px;
+  color: #2c3e50;
+}
+
+.intro-container ul {
+  padding-left: 20px;
+}
+
+.intro-container ul li {
+  margin-bottom: 8px;
+}
+
+.footer-note {
+  margin-top: 40px;
+  text-align: right;
+  font-style: italic;
+  color: #555;
+}
+
+.share-section {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #444;
+}
+
+.share-section span {
+  margin-right: 8px;
+}
+
+.share-section a {
+  display: inline-block;
+  margin-right: 10px;
+  color: #333;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+.share-section a img {
+  width: 18px;
+  height: 18px;
+  vertical-align: middle;
+  margin-right: 4px;
+}
+
+.share-section a:hover {
+  color: #186bcc;
+}
