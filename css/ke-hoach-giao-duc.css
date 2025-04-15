@@ -1,37 +1,58 @@
-.exam-container {
-  max-width: 800px;
-  margin: 30px auto;
+body {
   font-family: Arial, sans-serif;
+  background-color: #f4f6f9;
+  margin: 0;
+  padding: 40px 20px;
+}
+
+.exam-container {
+  max-width: 900px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 .exam-title {
   background-color: #186bcc;
   color: white;
-  padding: 10px 15px;
-  font-size: 18px;
-  margin-bottom: 20px;
+  padding: 12px 20px;
+  font-size: 20px;
+  border-radius: 8px;
+  margin-bottom: 25px;
 }
 
 .exam-item {
   display: flex;
   align-items: center;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
+  padding: 12px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.exam-item:hover {
+  background-color: #f0f8ff;
 }
 
 .exam-item img {
-  width: 200px;
+  width: 160px;
   height: auto;
-  margin-right: 15px;
+  border-radius: 6px;
+  margin-right: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
 .exam-item a {
   font-weight: bold;
-  color: #000;
+  color: #003366;
   text-decoration: none;
-  transition: color 0.2s ease;
+  font-size: 15px;
+  transition: color 0.3s ease;
 }
 
 .exam-item a:hover {
-  color: #186bcc;
+  color: #e74c3c;
   text-decoration: underline;
 }
