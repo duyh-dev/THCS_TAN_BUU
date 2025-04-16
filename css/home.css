@@ -136,10 +136,25 @@ body {
 .van-ban-box li {
   padding: 8px;
   border-bottom: 1px solid #eee;
-  transition: background 0.3s;
 }
 
 .thong-bao-box li:hover,
 .van-ban-box li:hover {
   background: #f0f8ff;
 }
+
+.thong-bao-box li a,
+.van-ban-box li a {
+  color: #333;
+  text-decoration: none;
+  display: block;
+  padding: 8px;
+  border-radius: 6px;
+}
+
+.thong-bao-box li a:hover,
+.van-ban-box li a:hover {
+  background: #f0f8ff;
+  color: #186bcc;
+}
+

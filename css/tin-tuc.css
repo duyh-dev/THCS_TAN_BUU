@@ -31,7 +31,9 @@ h2 {
 }
 
 .item:hover {
+  background-color: #e8f1ff; 
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
 }
 
 .item img {
@@ -72,7 +74,6 @@ h2 {
   text-decoration: underline;
 }
 
-/* Responsive */
 @media (max-width: 600px) {
   .item {
     flex-direction: column;
