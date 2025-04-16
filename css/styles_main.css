@@ -7,18 +7,21 @@ body {
 .navbar {
   background-color: #186bcc;
   overflow: hidden;
+  
 }
 
 .navbar a {
   float: left;
   display: block;
   color: white;
-  padding: 13px 20px;
+  padding: 12px 20px;
   text-decoration: none;
 }
 
 .navbar a:hover {
   background-color: #0f4f99;
+ padding: 13px 20px;
+
 }
 
 .navbar .time {
