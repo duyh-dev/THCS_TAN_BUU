@@ -60,5 +60,4 @@ function showManualSlide(n) {
   slideTimer = setTimeout(showSlides, 4000);
 }
 
-// Gọi khi tài liệu đã load
 document.addEventListener("DOMContentLoaded", showSlides);

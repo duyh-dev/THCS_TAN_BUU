@@ -2,9 +2,8 @@
   max-width: 800px;
   margin: 30px auto;
   font-family: Arial, sans-serif;
-  background-color: #f4f6f9;  /* Màu nền nhẹ để tách biệt với nội dung */
   padding: 20px;
-  border-radius: 10px;  /* Bo góc cho container */
+  border-radius: 10px;  
 }
 
 .board-title {
@@ -13,23 +12,23 @@
   padding: 12px 20px;
   font-size: 20px;
   font-weight: bold;
-  text-align: center;  /* Căn giữa tiêu đề */
+  text-align: left;  
   border-radius: 8px;
 }
 
 .board-member {
   display: flex;
-  align-items: center;  /* Căn giữa hình ảnh và nội dung */
+  align-items: center;  
   background-color: #fff;
-  border: 1px solid #ddd;  /* Đổi màu viền sang màu sáng hơn */
+  border: 1px solid #ddd;  
   padding: 20px;
-  margin-bottom: 20px;  /* Tăng khoảng cách giữa các phần tử */
+  margin-bottom: 20px;  
   border-radius: 8px;
-  transition: box-shadow 0.3s ease;  /* Hiệu ứng khi hover */
-}
+  transition: box-shadow 0.3s ease, transform 0.1s ease;}
 
 .board-member:hover {
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);  /* Hiệu ứng đổ bóng khi hover */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);  
+  transform: scale(1.01);  
 }
 
 .board-member img {
@@ -38,28 +37,24 @@
   object-fit: cover;
   border-radius: 8px;
   margin-right: 20px;
-  transition: transform 0.3s ease;  /* Hiệu ứng khi hover ảnh */
+  transition: transform 0.3s ease;  
 }
 
 .board-member img:hover {
-  transform: scale(1.05);  /* Phóng to ảnh khi hover */
+  transform: scale(1.05);  
 }
 
 .member-info {
-  flex: 1;  /* Tự động mở rộng nội dung */
+  flex: 1;  
+  text-align:center;
 }
 
 .member-info p {
-  margin: 8px 0;  /* Tăng khoảng cách giữa các dòng */
+  margin: 8px 0;  
   line-height: 1.6;
-  color: #333;  /* Đổi màu chữ để dễ đọc hơn */
+  color: #333;  
 }
 
 .member-info p strong {
-  color: #186bcc;  /* Màu sắc mạnh cho tên mục */
-}
-
-.member-info p:last-child {
-  font-size: 14px;  /* Giảm kích thước chữ cho email và số điện thoại */
-  color: #555;  /* Màu chữ nhạt hơn cho thông tin bổ sung */
+  color: #186bcc;  
 }
